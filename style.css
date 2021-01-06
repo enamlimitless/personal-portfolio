@@ -188,7 +188,7 @@ header .right-area img{
                                 /*Start SERVICES Section*/
                             /*=============================*/
 
-#services{background: #f4f4f49c;}
+
 #services h1{
     font-size: 50px;
     color:#363958;
@@ -202,6 +202,7 @@ header .right-area img{
     margin-top: 30px;
     text-align: center;
 }
+
 #services .services-item:last-child{margin-right: 0;}
 #services .services-item i{
     font-size:40px;

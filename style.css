@@ -35,6 +35,11 @@ a{text-decoration:none;}
     width:1100px;
     margin:0 auto;
 }
+
+                            /*=============================*/
+                                /*Start Header Section*/
+                            /*=============================*/ 
+
 header{
     height: 600px;
 }
@@ -89,7 +94,9 @@ header .right-area img{
     height:auto;
 }
 
-
+                            /*=============================*/
+                                /*Start ABOUT Section*/
+                            /*=============================*/
 
 .about-left-area{
     width:45%;
@@ -112,7 +119,9 @@ header .right-area img{
 }
 
 
-
+                            /*=============================*/
+                                /*Start WORKS Section*/
+                            /*=============================*/
 
 
 #latest-works{background: #F8F9FC;padding:70px 0;}
@@ -146,7 +155,9 @@ header .right-area img{
 }
 
 
-
+                            /*=============================*/
+                                /*Start SERVICES Section*/
+                            /*=============================*/
 
 #services h1{
     font-size: 50px;
@@ -175,7 +186,9 @@ header .right-area img{
 }
 
 
-
+                            /*=============================*/
+                                /*Start CONTACT Section*/
+                            /*=============================*/
 
 #contact .chatbar-img{
   background: url(img/chatbar.png);
@@ -202,7 +215,9 @@ header .right-area img{
     margin: 70px 0 0 250px;
 }
 
-
+                            /*=============================*/
+                                /*Start FOOTER Section*/
+                            /*=============================*/
 
 #footer{
     padding:30px 0;

@@ -3,23 +3,40 @@
     margin: 0;
     box-sizing: border-box;
 }
+                /*=====================================================*/
+                   /*typography that share the same design repeated*/
+                /*=====================================================*/
+
 html{font-size:62.5%;}
+
+    /* in the body tag used fonts */
+
 body{
     font-family:'Bebas Neue', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+    /* clearfix used for hidden overflow */
+
 .clearfix::after{
     content: "";
     display: table;
     clear:both;
     height:0;
 }
+    /* container for wrap web content */
+
+.container{
+    width:1100px;
+    margin:0 auto;
+}
+        /* lead used for paragraph texts */
 .lead{
     font-size:15px;
     color:#555;
     font-weight: 500;
     line-height: 1.7;
 }
+            /* buttons */
 .btn{
     font-size:15px;
     padding:15px 45px;
@@ -29,12 +46,26 @@ body{
     margin-top: 20px;
     display: inline-block;
 }
+    /* section */
+
 section{padding:50px 0;}
+
+    /* anchor tag */
+
 a{text-decoration:none;}
-.container{
-    width:1100px;
-    margin:0 auto;
-}
+
+    /* h1,h2,h3 tags same typograpy styed together */
+
+    h1,h2,h3{
+        font-family:'Bebas Neue', sans-serif;
+        letter-spacing: 3px;
+    }
+
+
+                            /*=============================*/
+                                   /*End typographyn*/
+                            /*=============================*/ 
+
 
                             /*=============================*/
                                 /*Start Header Section*/
@@ -113,9 +144,7 @@ header .right-area img{
 }
 .about-right-area h2{
     font-size: 40px;
-    font-family:'Bebas Neue', sans-serif;
     color:#363958;
-    letter-spacing: 3px;
 }
 
 
@@ -127,9 +156,7 @@ header .right-area img{
 #latest-works{background: #F8F9FC;padding:70px 0;}
 #latest-works h1{
     font-size: 40px;
-    font-family:'Bebas Neue', sans-serif;
     text-align: center;
-    letter-spacing: 3px;
     color:#363958;
     margin-bottom: 50px;
 }
@@ -161,9 +188,7 @@ header .right-area img{
 
 #services h1{
     font-size: 50px;
-    font-family:'Bebas Neue', sans-serif;
     color:#363958;
-    letter-spacing: 3px;
     text-align: center;
     margin: 20px 0;
 }
@@ -225,7 +250,7 @@ header .right-area img{
 #footer .wrap{
     text-align: center;
 }
-#footer .wrap h2{
+#footer .wrap h4{
     color:#363958;
     font-size:30px;
     margin: 15px 0;
@@ -233,7 +258,6 @@ header .right-area img{
 #footer .wrap h3{
     font-size:25px;
     color: #666;
-    font-family:'Bebas Neue', sans-serif;
 }
 #footer .social-icons img{
     width:30px;

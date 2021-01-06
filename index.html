@@ -5,29 +5,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Enamul Haque | Personal-Portfolio</title>
 </head>
 <body>
-    <header class="container">
-        <div class="logo">
-            <h1><a href="index.html">Enamul Haque</a></h1>
-        </div>
+    <header class="container clearfix">
         <nav>
+            <div class="logo">
+                <h1><a href="index.html">Enamul Haque</a></h1>
+            </div>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#latest-works">Works</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav> 
 
         <div class="left-area">
-            <h1>Hello, I'm</h1>
-            <h1>Enamul Haque</h1>
-            <p>A full stack allaround designer that placerat in massa consectetur</p>
-            <a href="https://www.facebook.com/profile.php?id=100040237967322">Hire Me</a>
+            <h1 class="dark-highlight">Hello, I'm</h1>
+            <h1 class="light-highlight">Enamul Haque</h1>
+            <p class="lead">A full stack allaround designer that placerat in massa consectetur</p>
+            <a class="btn" href="https://www.facebook.com/profile.php?id=100040237967322">Hire Me</a>
+        </div>
+        <div class="right-area">
+            <img src="img/personalportfolio.png" alt="">
         </div>
     </header>
+
+
+
+    <section id="about" class="container clearfix">
+        <div class="about-left-area">
+            <img src="img/personalportfolio.png" alt="">
+        </div>
+        <div class="about-right-area">
+            <h2>About Me</h2>
+            <p class="lead">Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s, when an unknown
+                printer took a galley of type and scrambled it to make a type
+                specimen book.</p>
+                <a class="btn" target=_blank href="facebook.com/"><i class="fas fa-arrow-down"></i>  Download CV</a>
+        </div>
+    </section>
+    <section id="latest-works">
+        <div class="container clearfix">
+        <h1><span class="light-heiglight">LATEST</span> WORKING PROJECT</h1>
+        <div class="box-images">
+            <img src="img/image 4.png" alt="">
+            <h4><a href="#">Power-x-gym (gym website)</a></h4>
+            <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+        <div class="box-images">
+            <img src="img/image 5.png" alt="">
+            <h4><a href="#">Creative Agency</a></h4>
+            <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+        <div class="box-images">
+            <img src="img/image 8.png" alt="">
+            <h4><a href="#">Hard Rock Music</a></h4>
+            <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+    </div>
+    </section>
+
+
+<section id="services">
+    <div class="container clearfix">
+        <h1>WHAT I DO</h1>
+        <div class="services-item">
+            <i class="fas fa-laptop-code"></i>
+            <h2>WEB DESIGN & UI</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non vel, sint nisi possimus sunt veritatis totam velit</p>
+        </div>
+        <div class="services-item">
+            <i class="fas fa-mobile-alt"></i>
+            <h2>MOBILE APP DESIGN</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non vel, sint nisi possimus sunt veritatis totam velit</p>
+        </div>
+        <div class="services-item">
+            <i class="fab fa-pied-piper-square"></i>
+            <h2>LOGO DESIGN</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non vel, sint nisi possimus sunt veritatis totam velit</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container clearfix">
+        <div class="chatbar-img">
+            <div class="chatbar-content">
+                <h1 class="chatbar-text">Work Inquiry</h1>
+                <a class="btn chatbar-link" href="#">Let's Chat</a>
+            </div>
+        </div>
+    </div>
+</section>
+    <footer id="footer">
+        <div class="container">
+            <div class="wrap">
+                <h3>Stay connected</h3>
+                <h2>enamulhaque@example.com</h2>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100040237967322"><img src="img/dribbleicon.png" alt=""></a>
+                    <a href="https://www.facebook.com/profile.php?id=100040237967322"><img src="img/behanceicon.png" alt=""></a>
+                    <a href="https://instagram.com/brownyy007"><img src="img/instaicon.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

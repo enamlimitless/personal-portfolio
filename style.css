@@ -8,8 +8,222 @@ body{
     font-family:'Bebas Neue', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+.clearfix::after{
+    content: "";
+    display: table;
+    clear:both;
+    height:0;
+}
+.lead{
+    font-size:15px;
+    color:#555;
+    font-weight: 500;
+    line-height: 1.7;
+}
+.btn{
+    font-size:15px;
+    padding:15px 45px;
+    background-image: linear-gradient(#F46060 , #FC7762);
+    border-radius:5px;
+    color:#fff;
+    margin-top: 20px;
+    display: inline-block;
+}
+section{padding:50px 0;}
 a{text-decoration:none;}
 .container{
-    width:960px;
+    width:1100px;
     margin:0 auto;
+}
+header{
+    height: 600px;
+}
+header nav{height:100px;}
+header nav ul{float:right;}
+
+header nav ul li{
+    float:left;
+    list-style: none;
+    margin-top: 30px;
+}
+header .logo a{
+    float:left;
+    font-size:25px;
+    color:#363958;
+    margin-top: 30px;
+    display: inline-block;
+}
+header nav ul li a{
+    color:#666;
+    font-size:14px;
+    font-family:'Roboto', sans-serif ;
+    font-weight: 700;
+    padding:10px 20px;
+    display: inline-block;
+}
+header .left-area{
+    width:45%;
+    float:left;
+    margin-right:7%;
+    margin-top: 50px;
+}
+header .left-area .dark-highlight{
+    font-size:70px;
+    font-family:'Bebas Neue', sans-serif;
+    color:#363958;
+    letter-spacing: 3px;
+}
+header .left-area .light-highlight{
+    font-size:70px;
+    font-family:'Bebas Neue', sans-serif;
+    color:#FF8367;
+    letter-spacing: 3px;
+}
+header .left-area p{width:70%;}
+header .right-area{
+    width:48%;
+    float:left;
+    margin-top: 30px;
+}
+header .right-area img{
+    width:400px;
+    height:auto;
+}
+
+
+
+.about-left-area{
+    width:45%;
+    float:left;
+    margin-right: 7%;
+}
+.about-left-area img{
+    width:400px;
+}
+.about-right-area{
+    width:48%;
+    float:left;
+    margin-top: 30px;
+}
+.about-right-area h2{
+    font-size: 40px;
+    font-family:'Bebas Neue', sans-serif;
+    color:#363958;
+    letter-spacing: 3px;
+}
+
+
+
+
+
+#latest-works{background: #F8F9FC;padding:70px 0;}
+#latest-works h1{
+    font-size: 40px;
+    font-family:'Bebas Neue', sans-serif;
+    text-align: center;
+    letter-spacing: 3px;
+    color:#363958;
+    margin-bottom: 50px;
+}
+#latest-works .light-heiglight{color:#F46060;}
+#latest-works .box-images{
+    width:30%;
+    float:left;
+    background: #fff;
+    margin-right: 5%;
+    padding:15px 15px 30px 15px;
+    border-radius:10px;
+    box-shadow: 7px 7px 20px #ddd;
+}
+#latest-works .box-images:last-child{margin-right: 0;}
+#latest-works .box-images img{
+    width:100%;
+}
+#latest-works .box-images a{
+    font-size:20px;
+    color:#363958;
+    padding:15px 5px;
+    display: inline-block;
+}
+
+
+
+
+#services h1{
+    font-size: 50px;
+    font-family:'Bebas Neue', sans-serif;
+    color:#363958;
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 20px 0;
+}
+#services .services-item{
+    width:30%;
+    float:left;
+    margin-right: 5%;
+    margin-top: 30px;
+    text-align: center;
+}
+#services .services-item:last-child{margin-right: 0;}
+#services .services-item i{
+    font-size:40px;
+    color: #F46060;
+}
+#services .services-item h2{
+    font-size:20px;
+    margin: 20px 0;
+    color: #363958;
+}
+
+
+
+
+#contact .chatbar-img{
+  background: url(img/chatbar.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  height:250px;
+  display: block;
+  margin:0 auto;
+  position:relative;
+}
+#contact .chatbar-img .chatbar-content{
+    position:absolute;
+}
+#contact .chatbar-img .chatbar-text{
+    font-family:'Bebas Neue', sans-serif;
+    font-size:50px;
+    color:#fff;
+    margin-top: 70px;
+    margin-left: 40px;
+    float:left;
+}
+#contact .chatbar-img .chatbar-link{
+    float:right;
+    margin: 70px 0 0 250px;
+}
+
+
+
+#footer{
+    padding:30px 0;
+}
+#footer .wrap{
+    text-align: center;
+}
+#footer .wrap h2{
+    color:#363958;
+    font-size:30px;
+    margin: 15px 0;
+}
+#footer .wrap h3{
+    font-size:25px;
+    color: #666;
+    font-family:'Bebas Neue', sans-serif;
+}
+#footer .social-icons img{
+    width:30px;
+    height:auto;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }

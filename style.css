@@ -188,6 +188,7 @@ header .right-area img{
                                 /*Start SERVICES Section*/
                             /*=============================*/
 
+#services{background: #f4f4f49c;}
 #services h1{
     font-size: 50px;
     color:#363958;
@@ -222,6 +223,7 @@ header .right-area img{
      width:900px;
      margin:0 auto;
      margin-left: 100px;
+     padding:50px 0;
  }
 #contact .chatbar-img{
   background: url(img/chatbar.png);
@@ -243,7 +245,7 @@ header .right-area img{
 }
 #contact .chatbar-img .chatbar-link{
     float:right;
-    margin: 90px 0 0 300px;
+    margin: 90px 0 0 350px;
 }
 
                             /*=============================*/

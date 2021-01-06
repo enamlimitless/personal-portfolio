@@ -12,7 +12,8 @@ html{font-size:62.5%;}
     /* in the body tag used fonts */
 
 body{
-    font-family:'Bebas Neue', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Dosis', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
     /* clearfix used for hidden overflow */
@@ -175,6 +176,7 @@ header .right-area img{
     width:100%;
 }
 #latest-works .box-images a{
+    font-family: 'Dosis', sans-serif;
     font-size:20px;
     color:#363958;
     padding:15px 5px;
@@ -205,6 +207,7 @@ header .right-area img{
     color: #F46060;
 }
 #services .services-item h2{
+    font-family: 'Dosis', sans-serif;
     font-size:20px;
     margin: 20px 0;
     color: #363958;
@@ -215,13 +218,16 @@ header .right-area img{
                                 /*Start CONTACT Section*/
                             /*=============================*/
 
+ #contact .wrap-img{
+     width:900px;
+     margin:0 auto;
+     margin-left: 100px;
+ }
 #contact .chatbar-img{
   background: url(img/chatbar.png);
   background-repeat: no-repeat;
-  background-size: 70%;
+  background-size: contain , cover;
   height:250px;
-  display: block;
-  margin:0 auto;
   position:relative;
 }
 #contact .chatbar-img .chatbar-content{
@@ -231,13 +237,13 @@ header .right-area img{
     font-family:'Bebas Neue', sans-serif;
     font-size:50px;
     color:#fff;
-    margin-top: 70px;
-    margin-left: 40px;
+    margin-top: 80px;
+    margin-left: 60px;
     float:left;
 }
 #contact .chatbar-img .chatbar-link{
     float:right;
-    margin: 70px 0 0 250px;
+    margin: 90px 0 0 300px;
 }
 
                             /*=============================*/
